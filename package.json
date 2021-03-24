@@ -1,0 +1,24 @@
+{
+  "name": "restaurant-page",
+  "version": "1.0.0",
+  "description": "Microverse project",
+  "main": "webpack.config.js",
+  "dependencies": {
+    "webpack": "^5.27.2",
+    "webpack-cli": "^4.5.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elisha2kyakpo1/Restaurant-page.git"
+  },
+  "author": "Elisha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elisha2kyakpo1/Restaurant-page/issues"
+  },
+  "homepage": "https://github.com/elisha2kyakpo1/Restaurant-page#readme"
+}

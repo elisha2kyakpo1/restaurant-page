@@ -1,0 +1,38 @@
+body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.img {
+    background-image: url(../asset/img/kayleigh-harrington-yhn4okt6ci0-unsplash.jpg);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+.img ul {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+    padding-top: 1rem;
+}
+
+.heading {
+    list-style: none;
+    margin-right: 1rem;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 0 5px;
+}
+
+.heading a {
+    text-align: center;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    text-decoration: none;
+    color: #f87171;
+}
