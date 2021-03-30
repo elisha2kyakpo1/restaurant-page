@@ -4,7 +4,7 @@ body {
     margin: 0;
 }
 
-.img {
+.image {
     background-image: url(../asset/img/kayleigh-harrington-yhn4okt6ci0-unsplash.jpg);
     height: 100vh;
     width: 100%;
@@ -13,7 +13,7 @@ body {
     background-position-y: center;
 }
 
-.img ul {
+.ul-list {
     display: flex;
     justify-content: flex-end;
     margin: 0;
@@ -28,7 +28,7 @@ body {
     padding: 0 5px;
 }
 
-.heading a {
+.links {
     text-align: center;
     font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
