@@ -14,7 +14,7 @@ const createAboutSection = () => {
 
   about.appendChild(para);
   return about;
-}
+};
 
 const setBtnActive = (id) => {
   const activeBtn = document.querySelector('.tab.active');
@@ -22,7 +22,7 @@ const setBtnActive = (id) => {
 
   const homeBtn = document.getElementById(id);
   homeBtn.classList.add('active');
-}
+};
 
 const loadHome = () => {
   const content = document.getElementById('tab-content');
@@ -36,6 +36,6 @@ const loadHome = () => {
   setBtnActive('home');
 
   content.appendChild(aboutSection);
-}
+};
 
 export default loadHome;

@@ -4,9 +4,9 @@ const setBtnActive = (id) => {
 
   const homeBtn = document.getElementById(id);
   homeBtn.classList.add('active');
-}
+};
 
-const createFood =(src, text, price, alt) => {
+const createFood = (src, text, price, alt) => {
   const food = document.createElement('div');
   food.classList.add('food');
   const img = document.createElement('img');
@@ -28,9 +28,9 @@ const createFood =(src, text, price, alt) => {
   food.appendChild(img);
   food.appendChild(description);
   return food;
-}
+};
 
-const loadMenu = () =>{
+const loadMenu = () => {
   const content = document.getElementById('tab-content');
   content.classList.add('grid-lay');
   content.classList.remove('flex-lay');
@@ -92,6 +92,6 @@ const loadMenu = () =>{
   foods.forEach((food) => {
     content.appendChild(food);
   });
-}
+};
 
 export default loadMenu;

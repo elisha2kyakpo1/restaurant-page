@@ -5,7 +5,7 @@ const createHeader = (id, text) => {
   logo.textContent = text;
   header.appendChild(logo);
   return header;
-}
+};
 
 const createBtn = (id, text) => {
   const btn = document.createElement('button');
@@ -15,7 +15,7 @@ const createBtn = (id, text) => {
   btn.appendChild(span);
   btn.classList.add('tab');
   return btn;
-}
+};
 
 const createNav = (id) => {
   const nav = document.createElement('nav');
@@ -29,13 +29,13 @@ const createNav = (id) => {
   nav.appendChild(menuBtn);
   nav.appendChild(contactBtn);
   return nav;
-}
+};
 
 const createMain = (id) => {
   const main = document.createElement('main');
   main.setAttribute('id', id);
   return main;
-}
+};
 
 const loadPage = () => {
   const content = document.getElementById('content');
@@ -45,6 +45,6 @@ const loadPage = () => {
   content.appendChild(nav);
   const tabContent = createMain('tab-content');
   content.appendChild(tabContent);
-}
+};
 
 export default loadPage;

@@ -4,9 +4,9 @@ const setBtnActive = (id) => {
 
   const homeBtn = document.getElementById(id);
   homeBtn.classList.add('active');
-}
+};
 
-const createSection =(name, data) =>{
+const createSection = (name, data) => {
   const section = document.createElement('section');
   section.classList.add('section');
 
@@ -23,7 +23,7 @@ const createSection =(name, data) =>{
   });
 
   return section;
-}
+};
 
 const loadContact = () => {
   const content = document.getElementById('tab-content');
@@ -38,6 +38,6 @@ const loadContact = () => {
     'Lusaka zambia',
   ]);
   content.appendChild(addressSection);
-}
+};
 
 export default loadContact;
