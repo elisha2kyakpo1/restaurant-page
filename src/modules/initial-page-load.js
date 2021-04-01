@@ -54,8 +54,6 @@ function loadPage() {
   content.appendChild(nav);
   const tabContent = createMain('tab-content');
   content.appendChild(tabContent);
-  // const footer = createFooter('footer', 'Made with care');
-  // content.appendChild(footer);
 }
 
 export default loadPage;
