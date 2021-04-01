@@ -5,6 +5,7 @@ function setBtnActive(id) {
   const homeBtn = document.getElementById(id);
   homeBtn.classList.add('active');
 }
+
 function createSection(name, data) {
   const section = document.createElement('section');
   section.classList.add('section');
