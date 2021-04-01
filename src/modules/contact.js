@@ -32,11 +32,11 @@ function loadContact() {
   setBtnActive('contact');
 
   const phoneSection = createSection('Phones', [
-    '$ Oz92-12j-2jda1',
-    '# Oz92-34d-80c13'
+    '# +260 961 095 323',
+    '# +260 976 000 435'
   ]);
 
-  const addressSection = createSection('address', ['unknown regions']);
+  const addressSection = createSection('address', ['Lusaka Zambia']);
 
   content.appendChild(phoneSection);
   content.appendChild(addressSection);

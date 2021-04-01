@@ -43,17 +43,13 @@ function createFooter(id, text) {
 }
 function loadPage() {
   const content = document.getElementById('content');
-  // header
-  const header = createHeader('header', 'Star Food');
+  const header = createHeader('header', 'Flesh Food');
   content.appendChild(header);
-  // nav
   const nav = createNav('nav');
   content.appendChild(nav);
-  // tab-content
   const tabContent = createMain('tab-content');
   content.appendChild(tabContent);
-  // footer
-  const footer = createFooter('footer', 'Made by the force');
+  const footer = createFooter('footer', 'Made with care');
   content.appendChild(footer);
 }
 

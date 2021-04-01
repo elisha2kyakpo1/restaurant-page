@@ -4,7 +4,7 @@ body {
   margin: 0;
 }
 
-.image {
+#content {
   background-image: url(../asset/img/kayleigh-harrington-yhn4okt6ci0-unsplash.jpg);
   height: 100vh;
   width: 100%;

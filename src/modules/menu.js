@@ -42,49 +42,49 @@ function loadMenu() {
     createFood(
       'https://starwarsblog.starwars.com/wp-content/uploads/2018/07/ackbar-ice-cream-tall.jpg',
       'acbar ice Cream',
-      '10CR',
+      '$10',
       'acbar ice cream'
     ),
     createFood(
       'https://starwarsblog.starwars.com/wp-content/uploads/2019/06/corellian-coffee-tall.jpg',
       'corellian coffee',
-      '4CR',
+      '$20',
       'corellian coffee'
     ),
     createFood(
       'https://starwarsblog.starwars.com/wp-content/uploads/2019/03/darth-maul-quinoa-tall.jpg',
       'darth maul quinoa',
-      '20CR',
+      '$10',
       'darth maul quinoa'
     ),
     createFood(
       'https://starwarsblog.starwars.com/wp-content/uploads/2018/10/ewok-cookies-tall.jpg',
       'ewok cookies',
-      '4CR',
+      '$12',
       'ewok cookies'
     ),
     createFood(
       'https://starwarsblog.starwars.com/wp-content/uploads/2018/12/lemon-tart-tall.jpg',
       'lemon tart',
-      '6CR',
+      '$15',
       'lemon tart'
     ),
     createFood(
       'https://starwarsblog.starwars.com/wp-content/uploads/2018/03/porg-puffs-tall.jpg',
       'porg puffs',
-      '12CR',
+      '$10',
       'porg puffs'
     ),
     createFood(
       'https://starwarsblog.starwars.com/wp-content/uploads/2019/08/sith-trooper-float-tall-b.jpg',
       'sith trooper root beer',
-      '9CR',
+      '$5',
       'sith trooper root beer'
     ),
     createFood(
       'https://starwarsblog.starwars.com/wp-content/uploads/2019/06/vader-peanut-butter-blossoms-tall.jpg',
       'vader peanut butter blossoms',
-      '20CR',
+      '$10',
       'vader peanut butter blossoms'
     )
   ];
