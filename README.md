@@ -6,10 +6,6 @@
 
 ## Getting Started
 
-Enjoy app features by openning the link below in the blowser.
-
-### Have a copy
-
 ## Setup
 
 To get started, you should first get this file in your local machine by cloning or forking this project or typing in your terminal
@@ -18,9 +14,7 @@ To get started, you should first get this file in your local machine by cloning 
 
 > cd restaurant-page
 
-> git checkout restaurant-page
-
-> npx install
+> npn install
 
 > npx webpack --watch
 
