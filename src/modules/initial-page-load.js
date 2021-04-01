@@ -43,7 +43,7 @@ function createFooter(id, text) {
 }
 function loadPage() {
   const content = document.getElementById('content');
-  const header = createHeader('header', 'Flesh Food');
+  const header = createHeader('header', 'Flesh Foods');
   content.appendChild(header);
   const nav = createNav('nav');
   content.appendChild(nav);
