@@ -8,8 +8,6 @@
 
 Enjoy app features by openning the link below in the blowser.
 
-[Live link]()
-
 ### Have a copy
 
 ## Setup
@@ -21,6 +19,8 @@ To get started, you should first get this file in your local machine by cloning 
 > cd restaurant-page
 
 > git checkout restaurant-page
+
+> npx install
 
 > npx webpack --watch
 
