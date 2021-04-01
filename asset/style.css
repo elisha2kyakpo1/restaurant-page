@@ -6,20 +6,13 @@ body {
 
 #content {
   min-height: 100%;
-  display: flex;
-  flex-direction: column;
-  background-image: url(../asset/img/kayleigh-harrington-yhn4okt6ci0-unsplash.jpg);
-  height: 100vh;
   width: 100%;
-  background-size: cover;
-  background-position-x: center;
-  background-position-y: center;
 }
 
 /* header */
 #header {
   height: 140px;
-  background-color: #000;
+  background-color: #374151;
   color: #fff;
 }
 
@@ -38,19 +31,15 @@ body {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-column-gap: 4px;
-  background-color: rgba(0, 0, 0, 0.9);
 }
 
 .tab {
   outline: none;
   cursor: pointer;
-  padding-bottom: 10px;
   border: 0;
   font-family: inherit;
-  border-top: 4px solid rgba(235, 235, 235, 0.4);
   border-bottom: 4px solid rgba(235, 235, 235, 0.4);
-  box-shadow: inset 0 0 7px 30px rgb(37, 16, 41);
-  background-color: rgb(69, 16, 80);
+  background-color: #6b7280;
   transition-duration: 0.5s;
 }
 
@@ -87,7 +76,10 @@ body {
   padding: 40px;
   min-height: 800px;
   color: #fff;
-  background: rgba(69, 16, 80, 0.5);
+  background-image: url(../asset/img/kayleigh-harrington-yhn4okt6ci0-unsplash.jpg);
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: center;
   animation: appear 1s ease-in-out;
 }
 
@@ -121,17 +113,20 @@ body {
   flex-direction: column;
   align-items: center;
   letter-spacing: 0.2rem;
+  background-color: #f9fafb;
+  opacity: 0.95;
 }
 
 .section-title {
   font-size: 36px;
-  text-shadow: 0 0 10px rgb(0, 0, 0);
+  color: #000;
 }
 
 .section-description {
   font-size: 20px;
-  text-align: center;
-  text-shadow: 0 0 8px rgb(0, 0, 0);
+  padding: 0 30px;
+  color: #111827;
+  text-align: justify;
 }
 
 /* footer */
@@ -169,8 +164,6 @@ body {
   display: flex;
   flex-direction: column;
   background-color: #000;
-  border: 4px solid rgba(255, 255, 255, 0.4);
-  box-shadow: 0 0 10px 10px rgba(37, 16, 41, 0.7);
   width: 640px;
   height: 320px;
   transition: 0.4s;
@@ -201,7 +194,6 @@ body {
 
 .food:hover {
   box-shadow: 0 0 20px 2px rgba(119, 57, 161, 0.7);
-  border-color: rgb(139, 2, 167);
 }
 
 .food .description h3 {
