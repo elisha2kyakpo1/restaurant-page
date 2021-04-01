@@ -1,4 +1,4 @@
-function setBtnActive(id) {
+const setBtnActive = (id) => {
   const activeBtn = document.querySelector('.tab.active');
   if (activeBtn) activeBtn.classList.remove('active');
 
@@ -6,7 +6,7 @@ function setBtnActive(id) {
   homeBtn.classList.add('active');
 }
 
-function createFood(src, text, price, alt) {
+const createFood =(src, text, price, alt) => {
   const food = document.createElement('div');
   food.classList.add('food');
   const img = document.createElement('img');
@@ -30,7 +30,7 @@ function createFood(src, text, price, alt) {
   return food;
 }
 
-function loadMenu() {
+const loadMenu = () =>{
   const content = document.getElementById('tab-content');
   content.classList.add('grid-lay');
   content.classList.remove('flex-lay');

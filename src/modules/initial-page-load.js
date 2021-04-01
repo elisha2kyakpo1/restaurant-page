@@ -1,4 +1,4 @@
-function createHeader(id, text) {
+const createHeader = (id, text) => {
   const header = document.createElement('header');
   header.setAttribute('id', id);
   const logo = document.createElement('h1');
@@ -7,7 +7,7 @@ function createHeader(id, text) {
   return header;
 }
 
-function createBtn(id, text) {
+const createBtn = (id, text) => {
   const btn = document.createElement('button');
   btn.setAttribute('id', id);
   const span = document.createElement('span');
@@ -17,7 +17,7 @@ function createBtn(id, text) {
   return btn;
 }
 
-function createNav(id) {
+const createNav = (id) => {
   const nav = document.createElement('nav');
   nav.setAttribute('id', id);
 
@@ -31,13 +31,13 @@ function createNav(id) {
   return nav;
 }
 
-function createMain(id) {
+const createMain = (id) => {
   const main = document.createElement('main');
   main.setAttribute('id', id);
   return main;
 }
 
-function loadPage() {
+const loadPage = () => {
   const content = document.getElementById('content');
   const header = createHeader('header', 'Flesh Foods');
   content.appendChild(header);

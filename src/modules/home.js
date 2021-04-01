@@ -1,4 +1,4 @@
-function createAboutSection() {
+const createAboutSection = () => {
   const about = document.createElement('section');
   about.classList.add('section');
 
@@ -16,7 +16,7 @@ function createAboutSection() {
   return about;
 }
 
-function setBtnActive(id) {
+const setBtnActive = (id) => {
   const activeBtn = document.querySelector('.tab.active');
   if (activeBtn) activeBtn.classList.remove('active');
 
@@ -24,7 +24,7 @@ function setBtnActive(id) {
   homeBtn.classList.add('active');
 }
 
-function loadHome() {
+const loadHome = () => {
   const content = document.getElementById('tab-content');
   content.classList.add('flex-lay');
   content.classList.remove('grid-lay');

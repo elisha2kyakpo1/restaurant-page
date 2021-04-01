@@ -1,4 +1,4 @@
-function setBtnActive(id) {
+const setBtnActive = (id) => {
   const activeBtn = document.querySelector('.tab.active');
   if (activeBtn) activeBtn.classList.remove('active');
 
@@ -6,7 +6,7 @@ function setBtnActive(id) {
   homeBtn.classList.add('active');
 }
 
-function createSection(name, data) {
+const createSection =(name, data) =>{
   const section = document.createElement('section');
   section.classList.add('section');
 
@@ -25,7 +25,7 @@ function createSection(name, data) {
   return section;
 }
 
-function loadContact() {
+const loadContact = () => {
   const content = document.getElementById('tab-content');
   content.classList.add('flex-lay');
   content.classList.remove('grid-lay');
