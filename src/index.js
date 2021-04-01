@@ -1,7 +1,13 @@
-import loadPage from './modules/initial-page-load.js';
-import loadHome from './modules/home.js';
-import loadMenu from './modules/menu.js';
-import loadContact from './modules/contact.js';
+import loadPage from './modules/initial-page-load';
+import loadHome from './modules/home';
+import loadMenu from './modules/menu';
+import loadContact from './modules/contact';
+
+function init() {
+  loadPage();
+  loadHome();
+  addNavEvents();
+}
 
 init();
 
@@ -13,9 +19,4 @@ function addNavEvents() {
   homeBtn.addEventListener('click', loadHome);
   menuBtn.addEventListener('click', loadMenu);
   contactBtn.addEventListener('click', loadContact);
-}
-function init() {
-  loadPage();
-  loadHome();
-  addNavEvents();
 }

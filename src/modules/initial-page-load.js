@@ -37,15 +37,6 @@ function createMain(id) {
   return main;
 }
 
-function createFooter(id, text) {
-  const footer = document.createElement('footer');
-  footer.setAttribute('id', id);
-  const h3 = document.createElement('h3');
-  h3.textContent = text;
-  footer.appendChild(h3);
-  return footer;
-}
-
 function loadPage() {
   const content = document.getElementById('content');
   const header = createHeader('header', 'Flesh Foods');

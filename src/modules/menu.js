@@ -43,37 +43,37 @@ function loadMenu() {
       'https://starwarsblog.starwars.com/wp-content/uploads/2018/07/ackbar-ice-cream-tall.jpg',
       'acbar ice Cream',
       '$10',
-      'acbar ice cream'
+      'acbar ice cream',
     ),
     createFood(
       'https://starwarsblog.starwars.com/wp-content/uploads/2019/06/corellian-coffee-tall.jpg',
       'corellian coffee',
       '$20',
-      'corellian coffee'
+      'corellian coffee',
     ),
     createFood(
       'https://starwarsblog.starwars.com/wp-content/uploads/2019/03/darth-maul-quinoa-tall.jpg',
       'darth maul quinoa',
       '$10',
-      'darth maul quinoa'
+      'darth maul quinoa',
     ),
     createFood(
       'https://starwarsblog.starwars.com/wp-content/uploads/2018/10/ewok-cookies-tall.jpg',
       'ewok cookies',
       '$12',
-      'ewok cookies'
+      'ewok cookies',
     ),
     createFood(
       'https://starwarsblog.starwars.com/wp-content/uploads/2018/12/lemon-tart-tall.jpg',
       'lemon tart',
       '$15',
-      'lemon tart'
+      'lemon tart',
     ),
     createFood(
       'https://starwarsblog.starwars.com/wp-content/uploads/2018/03/porg-puffs-tall.jpg',
       'porg puffs',
       '$10',
-      'porg puffs'
+      'porg puffs',
     ),
     createFood(
       'https://starwarsblog.starwars.com/wp-content/uploads/2019/08/sith-trooper-float-tall-b.jpg',
