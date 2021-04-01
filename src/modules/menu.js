@@ -79,14 +79,14 @@ function loadMenu() {
       'https://starwarsblog.starwars.com/wp-content/uploads/2019/08/sith-trooper-float-tall-b.jpg',
       'sith trooper root beer',
       '$5',
-      'sith trooper root beer'
+      'sith trooper root beer',
     ),
     createFood(
       'https://starwarsblog.starwars.com/wp-content/uploads/2019/06/vader-peanut-butter-blossoms-tall.jpg',
       'vader peanut butter blossoms',
       '$10',
-      'vader peanut butter blossoms'
-    )
+      'vader peanut butter blossoms',
+    ),
   ];
 
   foods.forEach((food) => {

@@ -3,14 +3,6 @@ import loadHome from './modules/home';
 import loadMenu from './modules/menu';
 import loadContact from './modules/contact';
 
-function init() {
-  loadPage();
-  loadHome();
-  addNavEvents();
-}
-
-init();
-
 function addNavEvents() {
   const homeBtn = document.getElementById('home');
   const menuBtn = document.getElementById('menu');
@@ -20,3 +12,11 @@ function addNavEvents() {
   menuBtn.addEventListener('click', loadMenu);
   contactBtn.addEventListener('click', loadContact);
 }
+
+function init() {
+  loadPage();
+  loadHome();
+  addNavEvents();
+}
+
+init();
